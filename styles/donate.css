@@ -1,0 +1,251 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url(../images/donation5.jpg), linear-gradient(transparent, black);    
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.banner{
+    padding: 175px 300px;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 65px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Description text *common */
+.description-text{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+/* Primary Button styles */
+.btn-primary{
+    background-color: #FF5959;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Donate Today Styles */
+.donate-today{
+    margin-top: 130px;
+    text-align: center;
+
+}
+.header-and-description-container{
+    padding: 0 375px;
+}
+
+/* Section Header */
+.section-header{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-today .description-text{
+    color: #707070;
+    margin-bottom: 50px;
+
+}
+
+.section-functionalities{
+    padding: 0px 338px;
+    text-align: center;
+}
+.amount{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+.amount li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #FAFAFA;
+    width: 135px;
+    border-radius: 5px;
+    padding: 45px 0;
+    margin-bottom: 60px;
+}
+.amount .selected{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.section-functionalities input[type="number"]{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    border-width: 0 0 2px;
+    border-color: #DADADA;
+    font-size: 18px;
+
+}
+::placeholder {
+    text-align: center; 
+ }
+input:focus{
+    outline: none;
+}
+
+/* Our Donate Plan styles */
+.our-donate-plan{
+    margin-top: 130px;
+}
+.header-and-description-container{
+    text-align: center;
+}
+.our-donate-plan .description-text{
+    color: #707070;
+}
+
+.our-donate-plan .section-functionalities{
+    text-align: left;
+    padding: 0 157px;
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.plan-item{
+    padding: 63px 22px 54px 23px;
+}
+/* Plan items BG colors */
+.section-functionalities .bg-color-1{
+    background-color: #4f9da627;
+}
+.section-functionalities .bg-color-2{
+    background-color: #ff595925;
+}
+.section-functionalities .bg-color-3{
+    background-color: #FFF4D6;
+}
+.plan-icon{
+    margin-bottom: 31px;
+
+}
+.plan-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.plan-item .description-text{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+
+/* How to contribute section */
+.contribution-section{
+    margin-top: 130px;
+    padding: 0 157px;
+   
+}
+.contribution{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+
+
+}
+.top-contribution{
+    margin-bottom: 100px;
+}
+.contribution-texts{
+    width: 50%;
+}
+.contribution-title{
+    font-size: 45px;
+}
+.contribution-texts .description-text{
+   color: #707070;
+   text-align: left;
+   margin-bottom: 0px;
+   margin-top: 20px; 
+}
+.contribution-texts .btn-primary{
+    margin-top: 30px;
+}
+.contribution-image{
+    background-image: url('../images/donation7.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 456px;
+    height: 477px;
+}
+.contribution-image-bottom{
+    background-image: url('../images/donation8.jpg');
+}
+
+
+/* Get my update styles */
+.get-my-update{
+    margin-top: 130px;
+}
+.get-my-update .description-text{
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.get-my-update form{
+    padding: 75px 200px;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+}
+
+.get-my-update .btn-primary{
+    padding: 14px 42px;
+    border-radius: 0 5px 5px 0;
+}
+
+.get-my-update input{
+    padding: 14px 17px;
+    border: none;
+    background-color: #D9D9D9;
+    color: #000000;
+    border-radius: 5px 0 0 5px;
+}
+.get-my-update input::placeholder{
+    text-align: left;
+}
+
+/* footer styles */
+
+.footer{
+    margin-top: 130px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+.footer h3{
+    padding-top: 43px;
+    padding-bottom: 24px;
+    font-size: 36px;
+    color: #FF5959;
+}
+.footer p{
+    padding-bottom: 24px;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
